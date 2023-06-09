@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 public class ImageGenerator {
     public static void main(String[] args) throws IOException {
-        String token = ApiKey.API_KEY;
+        String token = "your api key";
         OpenAiService service = new OpenAiService(token, Duration.ofSeconds(60));
 
         Scanner sc = new Scanner(System.in);
